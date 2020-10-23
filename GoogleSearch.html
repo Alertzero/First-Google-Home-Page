@@ -1,54 +1,137 @@
 <!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link rel="shortcut icon" href="favicon.ico">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <link href="style.css" rel="stylesheet">
+  <link href="fontawesome/css/all.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+</head>
+
+<body>
+
+
+    <div class="topnav">
+      <a href="#" id="about">About</a>
+      <a href="#" id="store">Store</a>
+
+      <div class="topnav-right">
+        <a href="#" id="gmail">Gmail</a>
+        <a href="Images.html" id="image">Images</a>
+        <a href="#" id="sign-in">Sign in</a>
+      </div>
+    </div>
+
+
+
+  <main>
+    <div id="center">
+      <img src="googlelogo_color_272x92dp.png" alt="Google logo" />
+      <div>
+        <div id="search-bar">
+          <i class="fa fa-search"></i>
+          <input type="text">
+        </div>
+        <div id="search-buttons">
+          <button>Google Search</button>
+          <button>I'm Feeling Lucky</button>
+        </div>
+      </div>
+      <p id="google-text">Google offered in: <a href="#" id="Thai">ภาษาไทย</a></p>
+    </div>
+  </main>
+
+
+  <footer>
+    <div id="footer1">
+      <a href="">Advertising</a>
+      <a href="">Business</a>
+      <a href="">How Search Works</a>
+    </div>
+    <div id="footer-gap"></div>
+    <div id="footer2">
+      <a href="">Privacy</a>
+      <a href="">Terms</a>
+      <a href="">Settings</a>
+    </div>
+
+
+  </footer>
+</body>
+
+</html>
+
+
+
+<!--<!DOCTYPE html>
 
 <html lang="en">
+
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1"> 
-<title>Google</title>
-<link rel="stylesheet" href="../OdinProject/style.css">
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Google</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 </head>
 
 
 
 <body>
-    <nav class="header">
-        
-            <!--...<a href="#" id="about">About</a>
-            <a href="#" id="store">Store</a>-->
-            <a href="#" id="gmail">Gmail</a>
-            <a href="../OdinProject/Images.html" id="image">Images</a>
-            <a href="#" id="menu"><img src="../OdinProject/menu.png" height="30px" width="30px"></a>
-            <a href="#" id="sign-in">Sign in</a>
-        
-    </nav>
-    
-        <main>
+  <nav class="header">
 
-<div style = "text-align: center; padding-top:108px;" >
-<img alt="Google" id="hplogo" src="../OdinProject/googlelogo_color_272x92dp.png" style="height: 92px; width=272;">
-<form action="https://www.google.com/search" method="get" style="text-align: center;" target="_parent">
-    <span class="fa fa-search form-control-feedback"></span>
-<input id="searchbox" name="q" type="text" aria-autocomplete="both" title="Search">
-<button name="btnG" aria-label="Google Search" type="submit" required>Google Search</button>
-<button aria-label="I'm Feeling Lucky" name="btnI" type="submit">I'm Feeling Lucky</button>
-</form>
-<p id="google-text">Google offered in: <a href="#" id="Thai">ภาษาไทย</a></p>
-</div>
+    <a href="#" id="about">About</a>
+            <a href="#" id="store">Store</a>
+    <a href="#" id="gmail">Gmail</a>
+    <a href="Images.html" id="image">Images</a>
+    <a href="#" id="menu"><img src="menu.png" height="30px" width="30px"></a>
+    <a href="#" id="sign-in">Sign in</a>
+
+  </nav>
+
+  <main>
+
+    <div style="text-align: center; padding-top:108px;">
+      <img alt="Google" id="hplogo" src="googlelogo_color_272x92dp.png" style="height: 92px; width=272;">
+      <form action="https://www.google.com/search" method="get" style="text-align: center;" target="_parent">
+        <span class="fa fa-search form-control-feedback"></span>
+        <input id="searchbox" name="q" type="text" aria-autocomplete="both" title="Search">
+        <button name="btnG" aria-label="Google Search" type="submit" required>Google Search</button>
+        <button aria-label="I'm Feeling Lucky" name="btnI" type="submit">I'm Feeling Lucky</button>
+      </form>
+      <p id="google-text">Google offered in: <a href="#" id="Thai">ภาษาไทย</a></p>
+    </div>
 
 
-</main>
+  </main>
 
 <div id="footer">
     <a href="#" id="advertising">Advertising</a>
-        <a href="#" id="business">Business</a>
-        <a href="#" id="about">About</a>
-        <a href="#" id="hsw">How Search works</a>
-        <a href="#" id="privacy">Privacy</a>
-        <a href="#" id="terms">Terms</a>
-        <a href="#" id="settings">Settings</a>
-</div>
+    <a href="#" id="business">Business</a>
+    <a href="#" id="about">About</a>
+    <a href="#" id="hsw">How Search works</a>
+    <a href="#" id="privacy">Privacy</a>
+    <a href="#" id="terms">Terms</a>
+    <a href="#" id="settings">Settings</a>
+  </div>
+
+  <footer>
+      <div id="footer1">
+          <a href="">Advertising</a>
+          <a href="">Business</a>
+          <a href="">How Search Works</a>
+      </div>
+      <div id="footer-gap"></div>
+      <div id="footer2">
+          <a href="">Privacy</a>
+          <a href="">Terms</a>
+          <a href="">Settings</a>
+      </div>
+  </footer>
+
 
 </body>
 
 
-</html>
+</html>-->
