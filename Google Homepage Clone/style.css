@@ -16,7 +16,7 @@
   text-decoration: none;
   color: rgba(0, 0, 0, 0.87);
   font-family: arial;
-  font-size: 16px;
+  font-size: 1rem;
 }
 
 .topnav a:hover {
@@ -130,6 +130,65 @@ button:hover {
 }
 
 footer {
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  width: 100%;
+  bottom: 0rem;
+  padding: 1rem 0;
+  background-color: #f2f2f2;
+  flex-flow: row wrap-reverse;
+  font-size: 1rem;
+  border-top: 1px solid #e4e4e4;
+}
+
+footer a {
+  float: left;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.87);
+  font-family: arial;
+  font-size: 16px;
+}
+
+footer a:hover {
+  opacity: .85;
+  text-decoration: underline;
+}
+
+footer .left-menu {
+  margin-left: 2rem;
+}
+
+footer .right-menu {
+  margin-right: 2rem;
+}
+
+footer a {
+  padding: 0 0.7rem;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 700px) {
+  footer {
+    display: flex;
+    justify-content: center;
+  }
+
+  footer a{
+    padding-top: 1rem;}
+
+
+}
+
+
+
+/*footer {
   position: relative;
   display: grid;
   justify-items: center;
@@ -167,7 +226,7 @@ footer>div>a:hover {
   #footer-gap {
     flex-grow: 1;
   }
-}
+}*/
 }
 
 /*a { text-decoration: none;
